@@ -800,6 +800,43 @@ body[data-theme="dark"] .text-muted {
   color: rgba(255, 255, 255, 0.6);
 }
 
+#contactInfo.container {
+  /* Unique styles for the contactInfo container */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+#contactInfo form {
+  /* Unique styles for the form inside the contactInfo container */
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#contactInfo form input,
+#contactInfo form textarea {
+  /* Unique styles for the input and textarea inside the form */
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
 @media (max-width: 767.98px) {
   .header {
     text-align: center;
