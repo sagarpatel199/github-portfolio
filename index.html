@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sagar Patel's - Web Developer and Designer Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web developer and software designer showcasing a portfolio of creative projects, web applications, and responsive designs. Experienced in HTML, CSS, JavaScript, UX/UI design, along with many coding languages and data structures.">
+    <meta name="info" content="Resume and portfolion of Sagar Patel.">
+
+    <meta name="description" content="Bootstrap Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="../github-portfolio/portfolioIcon.png">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-rss/dist/jquery.rss.min.js"></script>
+
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpg" style="width: 25%;" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Sagar Patel</h1>
+		                <h2 class="desc">Software Engineer/Web App Developer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/sagar-patel-437206197/"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/sagarpatel199"><i class="fab fa-github-alt"></i></a></li>     
+		                    <li class="list-inline-item"><a href="https://codepen.io/SagarPatel"><i class="fab fa-codepen"></i></a></li> 
+                            <li class="list-inline-item last-item"><a href="https://instagram.com/sagar129/"><i class="fab fa-instagram"></i></a></li>                 
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch--> 
+                    <a class="btn btn-cta-primary" href="mailto:sagar.patel19nov@gmail.com" target="_blank" ><i class="fas fa-paper-plane"></i> Contact Me</a>
+     
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>
+                                I am extremely passionate about reading and comprehending code. Writing code has been a significant part of my college life, and while I've faced challenges, it has shaped my understanding of programming as a whole. I am always eager to learn and expand my knowledge, whether it be in a language I am familiar with or something completely new to me.
+                                Working in a team setting has been a fulfilling experience for me, especially when collaborating with other programmers to create software. I enjoyed the process of working together and bringing our ideas to life. In the future, I hope to work in a similar environment where I can contribute my skills and work collaboratively with my team to create and maintain something truly remarkable.                                
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://github.com/sagarpatel199/Tread_Project" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/Project_Latest.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://github.com/sagarpatel199/Tread_Project" target="_blank">Teacher and Student Thread processing(Memory Managment)</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>This project showcases a thread-based process execution, demonstrating concurrent interactions between children and a teacher. The program simulates a classroom scenario, where multiple student threads and a teacher thread operate simultaneously.
+                                        The teacher thread waits for the students to arrive and then conducts a lecture. After the lecture, the students line up to receive candies, and each student is assigned to a group. The program calculates the average number of candies received by each group and determines the winning group.
+                                        The project effectively demonstrates the concept of multithreading in Java, illustrating how threads can work concurrently to simulate real-world scenarios. It highlights the coordination and synchronization between the teacher and student threads, as well as the calculation and comparison of results.
+                                        Through its implementation of thread processes, this project provides a practical example of concurrent programming and can serve as a valuable addition to your portfolio to showcase your skills in Java multithreading and process execution.</p>
+                                </div><!--//desc-->         
+                                <a id="likeButton" class="btn btn-cta-secondary"><i class="fas fa-thumbs-up"></i> Like My Content</a>
+                                <span>
+                                  <span id="likeCounter" class="badge badge-primary">0</span>
+                                </span>
+                                
+                                <script>
+                                    var likedByUser = false; // Flag to track if the user has already liked
+                                    
+                                    // Function to handle like button click event
+                                    function likeButtonClicked() {
+                                    if (!likedByUser) {
+                                        var likeCounter = document.getElementById("likeCounter");
+                                        var currentCount = parseInt(likeCounter.innerText);
+                                        likeCounter.innerText = currentCount + 1;
+                                        likedByUser = true;
+                                        document.getElementById("likeButton").disabled = true; // Disable the button after liking
+                                    }
+                                    }
+                                    
+                                    // Add event listener to the like button
+                                    document.getElementById("likeButton").addEventListener("click", likeButtonClicked);
+                                    </script> 
+
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/sagarpatel199/Flight-Management" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/Flight_Booking.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/sagarpatel199/Flight-Management" target="_blank">Flight booking managment system prototype (Java)</a></h3>
+                                    <p class="mb-2">
+                                        The Booking Management Prototype is a project aimed at providing a streamlined booking experience for various seating options. With this prototype, users can easily select their preferred seat class, meal options, additional services, and beverages, all in one convenient interface. The project offers a range of classes, including Main, FirstClass, and Business, allowing users to customize their booking experience to suit their needs.
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/sagarpatel199/Flight-Management" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/sagarpatel199/FullProjects" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/First_WebSite.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/sagarpatel199/FullProjects" target="_blank">Web Design</a></h3>
+                                    <p class="mb-2">
+                                        This Minor Project showcases the concept of website design, incorporating HTML, CSS, and JavaScript fundamentals. It demonstrates the implementation of CSS animations for the navigation bar using specific functions. The website was developed without relying on any frameworks, serving as an experimental showcase of acquired skills. Although not fully comprehensive, it highlights the knowledge gained. Utilizing frameworks and libraries such as Bootstrap provides a more streamlined approach to web development.
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/sagarpatel199/FullProjects" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/sagarpatel199/BMI-calculator" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/BMI_Project.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/sagarpatel199/BMI-calculator" target="_blank">BMI calculator</a></h3>
+                                    <p class="mb-2">This project showcases the development of a BMI (Body Mass Index) calculator. The project utilizes HTML, CSS, and JavaScript to create a user-friendly interface where users can input their height and weight to calculate their BMI. The application dynamically calculates the BMI based on the user's input and provides an immediate result along with a corresponding category (Underweight, Normal weight, Overweight, or Obese)</p>
+                                    <p><a class="more-link" href="https://github.com/sagarpatel199/BMI-calculator" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/sagarpatel199/Number-Game" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/guessNumberGame.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/sagarpatel199/Number-Game" target="_blank">Guess the number(Game)</a></h3>
+                                    <p class="mb-2">
+                                        "Welcome to the Number Guessing Game! Put your intuition to the test and guess the secret number between 1 and 100. Enter your guesses and receive feedback to guide you closer to the correct answer. Can you uncover the mystery number with skill and precision? Enjoy the challenge and become a master of numbers!"
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/sagarpatel199/Number-Game" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My Resume</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="./assets/js/SagarPatel_CV_Resume.pdf" target="_blank"> SagarPatel_CV_Resume.pdf  </a><span class="badge badge-theme">!!!</span></h3>
+                                <p class="summary">
+                                    This is for anyone who wants to know a little more about me. You can always contact me... &#58;&#41;
+                                </p>
+                            </div><!--//item-->
+                            
+                            <a class="btn btn-cta-secondary" href="https://github.com/sagarpatel199?tab=repositories">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>New York, US</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">sagar.patel19nov@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Proficient in many feilds of tech. Always open to learn new topics and expand my knowledge. Worked oon the following: 
+                                HTML5, CSS, JavaScript, Python, SQL, Java, C++, Bootstrap, jQuery, ReactJS, AngularJS, NodeJS, MySQL, MS SQL, RESTful API, GitHub
+                            </p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Java<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Has knowledge of Basics and have worked on more aspects."><i class="fas fa-info-circle"></i>Mid</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 70%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Has knowledge of Basics and have worked on more aspects."><i class="fas fa-info-circle"></i>Mid</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 65%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Has knowledge of Basics and have worked on more aspects."><i class="fas fa-info-circle"></i>Mid</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 75%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                
+                                <p><a class="more-link" href="https://github.com/sagarpatel199"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Computer Science</h3>
+                                <h4 class="university">Queens college(CUNY), New York<span class="year">(2018-2023)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Gujarati:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Quote</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fas fa-quote-left"></i> "Success is not final, failure is not fatal: It is the courage to continue that counts." <i class="fas fa-quote-right"></i></p>
+                                  </blockquote>              
+                                <p class="source"><span class="name">Winston Churchill</span><br /><span class="title">Prime Minister of UK(1940 - 1945)</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/sagar-patel-437206197/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Favourite activities</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-heart"></i> <a href="#">Hanging out with friends</a></li>
+                                <li><i class="fas fa-heart"></i> <a href="#">Watching Movies/Shows</a></li>
+                                <li><i class="fas fa-heart"></i> <a href="#">Gaming and Cricket</a></li>
+                                <li><i class="fas fa-heart"></i> <a href="#">Exercise and gym</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Leetcode favourites</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-heart"></i> <a href="#" target="_blank">Binary Search</a></li>
+                                <li><i class="far fa-heart"></i> <a href="#">Contains Duplicate</a></li>
+                                <li><i class="far fa-heart"></i> <a href="#">Two Sum</a> (everyones fav)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+
+ <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading "> <span class="fa-solid fa-heart fa-beat" style="color: #bd0000;"></span> Message to reader </h2>
+                        <div class="content">
+                            <p class="intro">
+                                Whether you, as the reader, appreciate my content or not, I want to express my sincere gratitude for investing your valuable time in exploring my portfolio. If you wish to get in touch with me, you can find my contact information in the attached resume. Once again, thank you immensely for your consideration, and I hope that my work meets your expectations.
+                            </p>            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+
+
+
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <!-- <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+
+                <!-- credit for the template goes to  Xiaoying Riley. Thank you for this wonderful template made from bootstrap.-->
+
+                <small class="copyright"><span class="sr-only">Hope the reader loves the work</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank"> Sagar Patel </a></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
