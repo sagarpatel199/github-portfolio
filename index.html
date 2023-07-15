@@ -109,10 +109,6 @@
                                         The project effectively demonstrates the concept of multithreading in Java, illustrating how threads can work concurrently to simulate real-world scenarios. It highlights the coordination and synchronization between the teacher and student threads, as well as the calculation and comparison of results.
                                         Through its implementation of thread processes, this project provides a practical example of concurrent programming and can serve as a valuable addition to your portfolio to showcase your skills in Java multithreading and process execution.</p>
                                 </div><!--//desc-->         
-                                <a id="likeButton" class="btn btn-cta-secondary"><i class="fas fa-thumbs-up"></i> Like My Content</a>
-                                <span>
-                                  <span id="likeCounter" class="badge badge-primary">0</span>
-                                </span>
                                 
 
                             </div><!--//item-->
@@ -172,7 +168,7 @@
                 
                 <section class="projects section" id="resume">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My Resume</h2>
+                        <h2 class="heading"> <a href="./assets/js/SagarPatel_CV_Resume.pdf"> My Resume </a></h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title"><a href="./assets/js/SagarPatel_CV_Resume.pdf" target="_blank"> SagarPatel_CV_Resume.pdf  </a><span class="badge badge-theme">!!!</span></h3>
@@ -194,25 +190,39 @@
                             <form onsubmit="sendEmail(); reset(); return false;">
                                 <input type="text" id="name" placeholder="Your Name" required>
                                 <input type="email" id="email" placeholder="Email id" required>
-                                <input type="text" id="phone" placeholder="phone no." required>
-                                <textarea id="message" rows="4" id="message" placeholder="How can i help you?" style="display: block;" required></textarea>
-                                <button class="btn btn-cta-primary" type="submit">Send</button>
+                                <input type="tel" id="phone" placeholder="phone no." required>
+                                <textarea id="message" rows="3" id="message" placeholder="How can i help you?" style="display: block;" required></textarea>
+                                <button class="btn btn-cta-primary" type="submit" >Send</button>
                             </form> 
                         </div><!--//content-->
                         <script src="https://smtpjs.com/v3/smtp.js"></script>
                         <script>
+
                             function sendEmail(){
                                 Email.send({
-                                    Host : "smtp.gmail.com",
+                                    Host : "smtp.elasticemail.com",
                                     Username : "sagar.patel199519nnov@gmail.com",
-                                    Password : "Sagarpatel12345@567",
+                                    Password : "7E20C6E336AE23CC4563FA97F6A5AE299752",
                                     To : 'sagar.patel19nov@gmail.com',
-                                    From : document.getElementById("email").value,
+                                    From : "sagar.patel199519nnov@gmail.com",
                                     Subject : "New Content From Enquiry",
-                                    Body : "Name: " + document.getElementById("name").value 
+                                    Body :   "Name: " + document.getElementById("name").value 
                                            + "<br> Email: " + document.getElementById("email").value
                                            + "<br> Phone Number: " + document.getElementById("phone").value
                                            + "<br> Message: " + document.getElementById("message").value
+                                        
+
+
+                                           /*
+                                            "Name: " + document.getElementById("name").value 
+                                           + "<br> Email: " + document.getElementById("email").value
+                                           + "<br> Phone Number: " + document.getElementById("phone").value
+                                           + "<br> Message: " + document.getElementById("message").value
+
+                                           */
+
+
+
                                 }).then(
                                 message => alert("Message Sent Succesfully.")
                                 );
@@ -378,7 +388,21 @@
 
 
 
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading" ><i class="fas fa-heart"></i> <a href="https://instagram.com/snickerskarelia?igshid=MTIzZWMxMTBkOA=="> For a smile </a><i class="fab fa-instagram"></i>   <i class="fas fa-heart"></i> </h2>
+                        <div class="content">
+                            <a href="https://instagram.com/snickerskarelia?igshid=MTIzZWMxMTBkOA=="> <img class="profile-image img-fluid rounded" src="./assets/images/projects/Beloved_Pet.JPG" style="width: 100%;" alt="profile image" /> </a>
+                            <p style="text-align: center;">Our Beloved pet, Snickers. <span></br>@snickerskarelia</span></p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+      
             </div>
+
+
 
     
     <!-- ******FOOTER****** --> 
